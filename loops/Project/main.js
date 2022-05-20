@@ -5,7 +5,7 @@ for (let i= 0; i <= numberOfMultiplication; i++) {
    let tempArray = [];
    for (let j = 0; j <= numberOfMultiplication; j++) {
       if(i * j === 0) {
-         tempArray.shift();
+         
          continue;
       }
       tempArray.push(i * j);
